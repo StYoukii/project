@@ -4,12 +4,14 @@
 @media only screen and (max-width: 479.5px) {
   width: 100%;
 }
+
 /**
         Tablette
  */
 @media only screen and (min-width: 480px) and (max-width: 1279.5px) {
   width: 200px;
 }
+
 /**
         Desktop
  */
@@ -18,13 +20,16 @@
     width: 450px;
   }
 }
+
 /**
         All
  */
-.sidebar.close {
-  display: none;
+.sidebar {
+  &.close {
+    display: none;
+  }
+
+  &.open {
+    display: block;
+  }
 }
-.sidebar.open {
-  display: block;
-}
-/*# sourceMappingURL=logged.component.css.map */

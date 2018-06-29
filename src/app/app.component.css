@@ -1,7 +1,50 @@
+/**
+        Imports
+ */
+/**
+        Standards
+ */
+.display-block {
+  display: block;
+}
 .display-flex {
   display: flex;
 }
 .display-none {
   display: none;
+}
+/**
+        Mobile
+ */
+@media only screen and (max-width: 479.5px) {
+  #main-container {
+    width: 100%;
+    margin: auto;
+  }
+}
+/**
+        Tablette
+ */
+@media only screen and (min-width: 480px) and (max-width: 1279.5px) {
+  #main-container {
+    width: 100%;
+    margin: auto;
+  }
+}
+/**
+        Desktop
+ */
+@media only screen and (min-width: 1280px) {
+  #main-container {
+    width: 1200px;
+    margin: auto;
+  }
+}
+/**
+        All
+ */
+body {
+  width: 100%;
+  background-color: red;
 }
 /*# sourceMappingURL=app.component.css.map */
