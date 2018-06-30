@@ -15,14 +15,19 @@
  */
 @media only screen and (min-width: 1280px) {
   .sidebar {
-    width: 450px;
+    width: 200px;
   }
 }
 /**
         All
  */
-.sidebar.close {
+.sidebar {
   display: none;
+  background-color: #fb833c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 .sidebar.open {
   display: block;

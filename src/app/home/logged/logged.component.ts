@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $: any;
+
 @Component({
   selector: 'app-logged',
   templateUrl: './logged.component.html',
@@ -12,4 +14,13 @@ export class LoggedComponent implements OnInit {
   ngOnInit() {
   }
 
+  openSidebar() {
+    $('.sidebar').addClass('open');
+  }
+
+  closeSidebar() {
+    $('.sidebar').removeClass('open');
+  }
 }
+
+
