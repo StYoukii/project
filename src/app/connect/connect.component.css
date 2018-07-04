@@ -1,11 +1,16 @@
-#app-connect {
-  background-color: #fb833c;
-}
 #app-connect .connect-form {
   padding-left: 10%;
   padding-right: 10%;
+  margin-top: 50vh;
+  transform: translateY(-50%);
 }
 #app-connect .connect-form h1 {
   text-align: center;
+}
+#app-connect .connect-form .form-check {
+  margin-bottom: 1rem;
+}
+#app-connect .connect-form .btn {
+  width: 100%;
 }
 /*# sourceMappingURL=connect.component.css.map */

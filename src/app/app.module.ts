@@ -15,7 +15,8 @@ import { CreateEventComponent } from './event/create-event/create-event.componen
 import { SearchBarComponent } from './search-bar/search-bar.component';
 
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { ConnectComponent } from './home/connect/connect.component';
+import { ConnectComponent } from './connect/connect.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ConnectComponent } from './home/connect/connect.component';
     EventComponent,
     CreateEventComponent,
     SearchBarComponent,
-    ConnectComponent
+    ConnectComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
