@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventComponent implements OnInit {
 
+  public eventName: string;
+  public eventCity: string;
+  public eventAdress: string;
+  public usersLimit: number;
+
+
   constructor() { }
 
   ngOnInit() {

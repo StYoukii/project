@@ -3,9 +3,14 @@
   <!-- Import du composant profil -->
 
   <!-- Import du composant menu -->
-  <ul>
-    <li><a></a></li>
-    <li>My events</li>
-    <li>Settings</li>
-  </ul>
+  <nav>
+    <h3>Events</h3>
+    <a [routerLink]="['/new-event']">New event</a>
+    <a [routerLink]="['/my-events']">My events</a>
+
+    <h3></h3>
+    <a [routerLink]="['/profile']">Profile</a>
+    <a [routerLink]="['/settings']">Settings</a>
+
+  </nav>
 </div>
