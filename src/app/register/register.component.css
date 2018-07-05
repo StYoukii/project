@@ -1,0 +1,16 @@
+#app-register .register-form {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+#app-register .register-form h1 {
+  text-align: center;
+}
+#app-register .register-form .form-check {
+  margin-bottom: 1rem;
+}
+#app-register .register-form .btn {
+  width: 100%;
+}
+/*# sourceMappingURL=register.component.css.map */

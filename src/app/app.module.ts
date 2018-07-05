@@ -17,6 +17,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ConnectComponent } from './connect/connect.component';
 import { RegisterComponent } from './register/register.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterComponent } from './register/register.component';
     CreateEventComponent,
     SearchBarComponent,
     ConnectComponent,
-    RegisterComponent
+    RegisterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
