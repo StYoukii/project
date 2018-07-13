@@ -5,6 +5,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { CreateEventComponent } from './event/create-event/create-event.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+    path: 'test',
+    component: UserComponent
   }
 ];
 
