@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CreateProfileComponent } from './profile/create-profile/create-profile.component';
 import { LoggedComponent } from './home/logged/logged.component';

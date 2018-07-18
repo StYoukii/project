@@ -63,6 +63,7 @@ table {
 
 body {
   font-family: Poppins;
+  background-color: #fb833c;
 }
 
 h1 {
@@ -95,5 +96,17 @@ p {
 }
 
 a {
-  color: #FFFFFF;
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
 }
