@@ -20,6 +20,8 @@ import { ConnectComponent } from './connect/connect.component';
 import { RegisterComponent } from './register/register.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UserComponent } from './user/user.component';
+import { ToggleMenuComponent } from './sidebar/toggle-menu/toggle-menu.component';
+import { EventsListComponent } from './event/events-list/events-list.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { UserComponent } from './user/user.component';
     ConnectComponent,
     RegisterComponent,
     NavbarComponent,
-    UserComponent
+    UserComponent,
+    ToggleMenuComponent,
+    EventsListComponent
   ],
   imports: [
     BrowserModule,
