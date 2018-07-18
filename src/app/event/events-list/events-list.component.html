@@ -1,3 +1,8 @@
-<p>
-  events-list works!
-</p>
+<div id="app-events-list">
+  <h1>Bonjour</h1>
+  <div class="row">
+    <div class="col-12" *ngFor="let event of events">
+      <span>{{ event.name }}</span>
+    </div>
+  </div>
+</div>

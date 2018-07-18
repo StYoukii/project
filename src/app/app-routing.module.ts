@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ConnectComponent } from './connect/connect.component';
 import { CreateEventComponent } from './event/create-event/create-event.component';
-import { EventsListComponent } from "./event/events-list/events-list.component";
+import { EventsListComponent } from './event/events-list/events-list.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
 import { UserComponent } from './user/user.component';
