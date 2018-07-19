@@ -1,17 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-event',
   templateUrl: './event.component.html',
-  styleUrls: ['./event.component.css']
+  styleUrls: ['./event.component.less']
 })
 export class EventComponent implements OnInit {
 
-  public eventName: string;
-  public eventCity: string;
-  public eventAdress: string;
-  public usersLimit: number;
-
+  @Input() event: any;
 
   constructor() { }
 
